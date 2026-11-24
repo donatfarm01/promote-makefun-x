@@ -1,6 +1,8 @@
 // Promote make.fun on X: entry program (Node 22, standard library only).
 //
-// The entry itself is the X post. This program has one job: hand the post's
+// The entry itself is the X post, published by hand: POST-CAPTION.txt
+// holds its exact caption text and post-image.png is the photo attached
+// to it. This program only carries the post's address to the grader.
 // address to the grader. It reads POST.json from the repository root,
 // checks that it names a post address, and writes an identical copy to
 // /output/POST.json. The house then reads the post from X and scores its
